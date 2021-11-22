@@ -58,7 +58,7 @@ def check():
         f.write("-$-" + user_name + "${" + key + "}")
         return render_template("Login_after.html")
     else:
-        return render_template("Wrong.html")
+        return render_template("SG_wrong.html")
 
 
 
